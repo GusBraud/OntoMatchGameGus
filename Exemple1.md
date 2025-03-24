@@ -54,7 +54,7 @@ M(crm:E42_Identifier) --> |crm:P168_is_defined_by| O(crm:E94_Space_primitive<br>
 
 
 ```
-
+**Enseignement de la composition à Helmut Lachenmann**
 
 ```mermaid
 graph TD;
