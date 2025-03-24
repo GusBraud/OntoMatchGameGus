@@ -37,7 +37,7 @@ G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo']
 G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
 G[crm:E7_Activity] ---> |crm:P9_consists_of| K[crm:E7_Activity]
-K[crm:E7_Activity] --> |crm:P2_has_type| L[crm:E55_Type<br>'Interprétation"<br>???]
+K[crm:E7_Activity] --> |crm:P2_has_type| L[crm:E55_Type<br>'Interprétation']
 K[crm:E7_Activity] --> |crm:P14_carried_out_by| M[crm:E74_Group<br>Chamber Orchestra of Europe]
 M[crm:E74_Group<br>Chamber Orchestra of Europe] --> |crm:P2_has_type| N[crm:E55_Type<br>'Ensemble musical'<br>aat:300205024]
 K[crm:E7_Activity] --> |crm:P14_carried_out_by| O[crm:E74_Group<br>'Chœur de solistes de l'Institut für Neue Musik an der Musikhoschule Freiburg']
