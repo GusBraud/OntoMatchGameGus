@@ -38,17 +38,17 @@ G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lo
 G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
 G[crm:E7_Activity] --> |crm:P9_consists_of| K[crm:E7_Activity]
 G[crm:E7_Activity] --> |crm:P9_consists_of| Q[crm:E7_Activity]
-K[crm:E7_Activity] --> |crm:P2_has_type| L[crm:E55_Type<br>'Interprétation'<br>aat:300025666]
+K[crm:E7_Activity] ---> |crm:P2_has_type| L[crm:E55_Type<br>'Interprétation'<br>aat:300025666]
 K[crm:E7_Activity] --> |crm:P14_carried_out_by| M[crm:E74_Group<br>'Chamber Orchestra of Europe']
 M[crm:E74_Group<br>Chamber Orchestra of Europe] --> |crm:P2_has_type| N[crm:E55_Type<br>'Ensemble musical'<br>aat:300205024]
 K[crm:E7_Activity] --> |crm:P14_carried_out_by| O[crm:E74_Group<br>'Chœur de solistes de l'Institut für Neue Musik an der Musikhoschule Freiburg']
 O[crm:E74_Group<br>'Chœur de solistes de l'Institut für Neue Musik an der Musikhoschule Freiburg'] --> |crm:P2_has_type| N[crm:E55_Type<br>'Ensemble musical'<br>aat:300205024]
 
-Q[crm:E7_Activity] --> |crm:P2_has_type| R[crm:E55_Type<br>'Direction'<br>aat:300025672]
-Q[crm:E7_Activity] --> |crm:P14_carried_out_by| S[crm:E21_Person<br>'André Richard']
-Q[crm:E7_Activity] --> |crm:P14_carried_out_by| T[crm:E21_Person<br>'Claudio Abbado']
-Q[crm:E7_Activity] --> |crm:P14_carried_out_by| U[crm:E21_Person<br>' Roberto Cecconi']
 
+Q[crm:E7_Activity] --> |crm:P14_carried_out_by| R[crm:E21_Person<br>'André Richard']
+Q[crm:E7_Activity] --> |crm:P14_carried_out_by| S[crm:E21_Person<br>'Claudio Abbado']
+Q[crm:E7_Activity] --> |crm:P14_carried_out_by| T[crm:E21_Person<br>' Roberto Cecconi']
+Q[crm:E7_Activity] ---> |crm:P2_has_type| U[crm:E55_Type<br>'Direction'<br>aat:300025672]
 
 
 ```
