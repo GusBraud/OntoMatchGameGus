@@ -20,7 +20,7 @@ E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_typ
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| G[crm:E7_Activity]
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo']
-G[crm:E7_Activity] ---> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
+G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
 J[crm:E52_Has_time_span] --> |crm:P82a_begin_of_the_begin| K['29 septembre 1984']
 J[crm:E52_Has_time_span] --> |crm:P82b_end_of_the_end| K['29 septembre 1984']
 
@@ -83,7 +83,7 @@ D[crm:E85_joining] --> |crm:P143_joined| E[crm:E21_Person<br>'Nuria Nono-Schö
 E[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P98_was_born| F[crm:E67_Birth]
 E[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P100_died_in| G[crm:E69_Death]
 D[crm:E85_joining] --> |crm:P144_joined_with| H[crm:E74_Group]
-H[crm:E74_Group] --> |crm:P2_has_type| I[crm:E55_Type<br>'marriage (social construct)'<br>aat:300055475]
+H[crm:E74_Group] --> |crm:P2_has_type| I[crm:E55_Type<br>'marriage'<br>aat:300055475]
 
 ```
 
