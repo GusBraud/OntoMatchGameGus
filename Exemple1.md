@@ -81,8 +81,9 @@ graph TD;
 A[crm:E7_Activity] --> |crm:P14_carried_out_by| B[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102]
 A[crm:E7_Activity] --> |crm:P2_has_type| C[crm:E55_Type<br>'Enseignement'<br>aat:300069743]
 A[crm:E7_Activity] --> |crm:P3_took_place_at| D[crm:E53_Place<br>'La maison de Nono à Venise']
-
-
+A[crm:E7_Activity] --> |crm:P9_consists_of| E[crm:E7_Activity]
+E[crm:E7_Activity] --> |crm:P2_has_type| F[crm:E55_Type<br>'Apprentissage'<br>aat:300449145]
+E[crm:E7_Activity] --> |crm:P14_carried_out_by| G[crm:E21_Person<br>'Helmut Lachenmann'<br>bnf:12148/cb13896236t]
 
 
 ```
