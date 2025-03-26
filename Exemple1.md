@@ -50,7 +50,6 @@ Q[crm:E7_Activity] --> |crm:P14_carried_out_by| S[crm:E21_Person<br>'Claudio Abb
 Q[crm:E7_Activity] --> |crm:P14_carried_out_by| T[crm:E21_Person<br>' Roberto Cecconi']
 Q[crm:E7_Activity] ---> |crm:P2_has_type| U[crm:E55_Type<br>'Direction'<br>aat:300025672]
 
-
 ```
 
 **Lieu de création d'une œuvre**
@@ -78,7 +77,8 @@ N(crm:E42_Identifier) --> |crm:P168_is_defined_by| P(crm:E94_Space_primitive<br>
 graph TD;
 
 A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102] --> |crm:P98_was_born| B[crm:E67_Birth]
-
+A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102] --> |crm:P100_died_in| C|crm:E69_Death|
+D[crm:E85_joining] --> |crm:P143_joined| A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102]
 
 ```
 
