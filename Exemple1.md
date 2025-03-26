@@ -20,7 +20,7 @@ E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_typ
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| G[crm:E7_Activity]
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo']
-G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
+G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Time_span]
 J[crm:E52_Has_time_span] --> |crm:P82a_begin_of_the_begin| K['29 septembre 1984']
 J[crm:E52_Has_time_span] --> |crm:P82b_end_of_the_end| K['29 septembre 1984']
 
@@ -77,14 +77,18 @@ N(crm:E42_Identifier) --> |crm:P168_is_defined_by| P(crm:E94_Space_primitive<br>
 graph TD;
 
 A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102] --> |crm:P98_was_born| B[crm:E67_Birth]
-A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102] --> |crm:P100_died_in| C[crm:E69_Death]
-D[crm:E85_joining] --> |crm:P143_joined| A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102]
-D[crm:E85_joining] --> |crm:P143_joined| E[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502]
-E[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P98_was_born| F[crm:E67_Birth]
-E[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P100_died_in| G[crm:E69_Death]
-D[crm:E85_joining] --> |crm:P144_joined_with| H[crm:E74_Group]
-H[crm:E74_Group] --> |crm:P2_has_type| I[crm:E55_Type<br>'marriage'<br>aat:300055475]
-D[crm:E85_joining] --> |crm:P2_has_type| J[crm:E55_Type<br>'Cérémonie de mariage'<br>aat:300069158]
+B[crm:E67_Birth] --> |crm:P4_has_time_span| C[crm:E52_Time_span]
+A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102] --> |crm:P100_died_in| D[crm:E69_Death]
+D[crm:E69_Death] --> |crm:P4_has_time_span| E[crm:E52_Time_span]
+F[crm:E85_joining] --> |crm:P143_joined| A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102]
+F[crm:E85_joining] --> |crm:P143_joined| G[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502]
+G[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P98_was_born| H[crm:E67_Birth]
+H[crm:E67_Birth] --> |crm:P4_has_time_span| J[crm:E52_Time_span]
+H[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P100_died_in| K[crm:E69_Death]
+K[crm:E69_Death] --> |crm:P4_has_time_span| L[crm:E52_Time_span]
+F[crm:E85_joining] --> |crm:P144_joined_with| M[crm:E74_Group]
+M[crm:E74_Group] --> |crm:P2_has_type| N[crm:E55_Type<br>'marriage'<br>aat:300055475]
+F[crm:E85_joining] --> |crm:P2_has_type| O[crm:E55_Type<br>'Cérémonie de mariage'<br>aat:300069158]
 
 ```
 
