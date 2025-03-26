@@ -84,7 +84,7 @@ F[crm:E85_joining] --> |crm:P143_joined| A[crm:E21_Person<br>'Luigi Nono'<br>bnf
 F[crm:E85_joining] --> |crm:P143_joined| G[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502]
 G[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P98_was_born| H[crm:E67_Birth]
 H[crm:E67_Birth] --> |crm:P4_has_time_span| J[crm:E52_Time_span]
-H[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P100_died_in| K[crm:E69_Death]
+G[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P100_died_in| K[crm:E69_Death]
 K[crm:E69_Death] --> |crm:P4_has_time_span| L[crm:E52_Time_span]
 F[crm:E85_joining] --> |crm:P144_joined_with| M[crm:E74_Group]
 M[crm:E74_Group] --> |crm:P2_has_type| N[crm:E55_Type<br>'marriage'<br>aat:300055475]
