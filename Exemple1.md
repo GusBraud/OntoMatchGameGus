@@ -72,6 +72,16 @@ N(crm:E42_Identifier) --> |crm:P2_has_type| O(crm:E55_Type<br>coordonnées géog
 N(crm:E42_Identifier) --> |crm:P168_is_defined_by| P(crm:E94_Space_primitive<br>43.60149, 12.94398)
 
 ```
+**Vie privée de Luigi Nono**
+
+```mermaid
+graph TD;
+
+A[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102] --> |crm:P98_was_born| B[crm:E67_Birth]
+
+
+```
+
 **Enseignement de la composition à Helmut Lachenmann**
 
 ```mermaid
