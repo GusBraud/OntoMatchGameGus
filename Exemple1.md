@@ -84,6 +84,7 @@ E[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P
 E[crm:E21_Person<br>'Nuria Nono-Schönberg'<br>bnf:12148/cb123338502] --> |crm:P100_died_in| G[crm:E69_Death]
 D[crm:E85_joining] --> |crm:P144_joined_with| H[crm:E74_Group]
 H[crm:E74_Group] --> |crm:P2_has_type| I[crm:E55_Type<br>'marriage'<br>aat:300055475]
+D[crm:E85_joining] --> |crm:P2_has_type| J[crm:E55_Type<br>'Cérémonie de mariage'<br>aat:300069158]
 
 ```
 
