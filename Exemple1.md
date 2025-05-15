@@ -24,7 +24,7 @@ E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_typ
 L[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P2_has_type| M[crm:E55_type<br>aat:300026427]
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |P16_used_specific_object| L[crm:E22_Human_Made_Object<br>'Partition']
 N[crm:E12_Production] --> |crm:P108_has_produced| L[crm:E22_Human_Made_Object<br>'Partition']
-L[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
+L[crm:E22_Human_Made_Object<br>'Partition'] ---> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
 
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo']
@@ -44,7 +44,7 @@ B[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_typ
 D[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P2_has_type| E[crm:E55_type<br>aat:300026427]
 B[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |P16_used_specific_object| D[crm:E22_Human_Made_Object<br>'Partition']
 F[crm:E12_Production] --> |crm:P108_has_produced| D[crm:E22_Human_Made_Object<br>'Partition']
-D[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
+D[crm:E22_Human_Made_Object<br>'Partition'] ---> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
 
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo'<br>geonames:3168113]
