@@ -33,7 +33,7 @@ D[crm:E65_creation] --> |crm:P94_has_created| E[crm:E28_Conceptual_Object<br>'Pr
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| F[crm:E55_Type<br>'Œuvre musicale'<br>aat:300264878]
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| G[crm:E7_Activity]
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
-G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo']
+G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo'<br>geonames:3168113]
 G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
 G[crm:E7_Activity] --> |crm:P9_consists_of| K[crm:E7_Activity]
 G[crm:E7_Activity] --> |crm:P9_consists_of| Q[crm:E7_Activity]
