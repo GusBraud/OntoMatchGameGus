@@ -63,7 +63,7 @@ G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
 I[crm:E53_Place<br>'Église San Lorenzo'<br>geonames:3168113] -->|crm:P1_is_identified_by| K(crm:E42_Identifier)
 K(crm:E42_Identifier) --> |crm:P2_has_type| L(crm:E55_type<br>adresse<br>aat:300386983)
 K(crm:E42_Identifier) --> |crm:P190_has_symbolic_content| M(Campo S. Lorenzo, 5067, 30122 Venezia VE, Italie)
-I[crm:E53_Place<br>'Église San Lorenzo'] --> |crm:P1_is_identified_by| N(crm:E42_Identifier)
+I[crm:E53_Place<br>'Église San Lorenzo'<br>geonames:3168113] --> |crm:P1_is_identified_by| N(crm:E42_Identifier)
 N(crm:E42_Identifier) --> |crm:P2_has_type| O(crm:E55_Type<br>coordonnées géographiques<br>aat:300387569)
 N(crm:E42_Identifier) --> |crm:P168_is_defined_by| P(crm:E94_Space_primitive<br>43.60149, 12.94398)
 
