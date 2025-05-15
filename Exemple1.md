@@ -21,10 +21,10 @@ graph TD;
 
 D[crm:E65_creation] --> |crm:P94_has_created| E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313]
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| F[crm:E55_Type<br>'Œuvre musicale'<br>aat:300264878]
-L[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
 L[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P2_has_type| M[crm:E55_type<br>aat:300026427]
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |P16_used_specific_object| L[crm:E22_Human_Made_Object<br>'Partition']
 N[crm:E12_Production] --> |crm:P108_has_produced| L[crm:E22_Human_Made_Object<br>'Partition']
+L[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
 
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo']
@@ -39,9 +39,13 @@ J[crm:E52_Has_time_span] --> |crm:P82b_end_of_the_end| K['29 septembre 1984']
 ```mermaid
 graph TD;
 
-D[crm:E65_creation] --> |crm:P94_has_created| E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313]
-E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| F[crm:E55_Type<br>'Œuvre musicale'<br>aat:300264878]
-E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| G[crm:E7_Activity]
+A[crm:E65_creation] --> |crm:P94_has_created| B[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313]
+B[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| C[crm:E55_Type<br>'Œuvre musicale'<br>aat:300264878]
+D[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P2_has_type| E[crm:E55_type<br>aat:300026427]
+B[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |P16_used_specific_object| D[crm:E22_Human_Made_Object<br>'Partition']
+F[crm:E12_Production] --> |crm:P108_has_produced| D[crm:E22_Human_Made_Object<br>'Partition']
+D[crm:E22_Human_Made_Object<br>'Partition'] --> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
+
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo'<br>geonames:3168113]
 G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Has_time_span]
