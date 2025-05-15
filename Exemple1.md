@@ -91,7 +91,7 @@ J[crm:E67_Birth] --> |crm:P4_has_time_span| K[crm:E52_Time_span]
 K[crm:E52_Time_span] --> |crm:P82a_begin_of_the_begin| L['7 mai 1932']
 K[crm:E52_Time_span] --> |crm:P82b_end_of_the_end| L['7 mai 1932']
 H[crm:E85_joining] --> |crm:P144_joined_with| M[crm:E74_Group]
-M[crm:E74_Group] --> |crm:P2_has_type| N[crm:E55_Type<br>'marriage'<br>aat:300055475]
+M[crm:E74_Group] --> |crm:P2_has_type| N[crm:E55_Type<br>'mariage'<br>aat:300055475]
 H[crm:E85_joining] --> |crm:P2_has_type| O[crm:E55_Type<br>'Cérémonie de mariage'<br>aat:300069158]
 
 ```
