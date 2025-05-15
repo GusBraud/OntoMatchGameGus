@@ -19,9 +19,10 @@ A[crm:E65_Creation] --> |crm:P94_has_created| G[crm:E28_Conceptual_Object<br>'Co
 graph TD;
 
 D[crm:E65_creation] --> |crm:P94_has_created| E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313]
-D[crm:E65_creation] --> |crm:P108_has_produced| L[crm:E71_Human_Made_thing]
+D[crm:E65_creation] --> |crm:P108_has_produced| L[crm:E71_Human_Made_thing<br>'Partition']
 E[crm:E28_Conceptual_Object<br>'Prometeo'<br>rism:850817313] --> |crm:P2_has_type| F[crm:E55_Type<br>'Œuvre musicale'<br>aat:300264878]
-L[crm:E71_Human_Made_thing] --> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
+L[crm:E71_Human_Made_thing<br>'Partition'] --> |crm:P19_was_intended_use_of| G[crm:E7_Activity]
+L[crm:E71_Human_Made_thing<br>'Partition'] --> |crm:P2_has_type| M[crm:E55_type<br>aat:300026427]
 G[crm:E7_Activity] --> |crm:P2_has_type| H[crm:E55_Type<br>'Création Mondiale'<br>aat:300069101]
 G[crm:E7_Activity] --> |crm:P3_took_place_at| I[crm:E53_Place<br>'Église San Lorenzo']
 G[crm:E7_Activity] --> |crm:P4_has_time_span| J[crm:E52_Time_span]
