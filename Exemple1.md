@@ -4,10 +4,10 @@
 graph TD;
 
 A[crm:E65_Creation] --> |crm:P14_carried_out_by| B[crm:E21_Person<br>'Luigi Nono'<br>bnf:12148/cb138980102]
-G[crm:E28_Conceptual_Object] --> |crm:P2_has_type| C[crm:E55_Type<br>'Composition musicale'<br>aat:300264878]
+G[crm:E28_Conceptual_Object<br>'Composition musicale'] --> |crm:P2_has_type| C[crm:E55_Type<br>aat:300264878]
 A[crm:E65_Creation] --> |crm:P108_has_produced| D[crm:E71_Human_Made_thing]
-D[crm:E71_Human_Made_thing] --> |crm:P2_has_type| E[crm:E55_type<br>'Partition'<br>aat:300026427]
-A[crm:E65_Creation] --> |crm:P94_has_created| G[crm:E28_Conceptual_Object]
+D[crm:E71_Human_Made_thing<br>'Partition'] --> |crm:P2_has_type| E[crm:E55_type<br>aat:300026427]
+A[crm:E65_Creation] --> |crm:P94_has_created| G[crm:E28_Conceptual_Object<br>'Composition musicale']
 
 ```
 
